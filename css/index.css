@@ -1,0 +1,563 @@
+@font-face {
+    font-family: "Graphik";
+    src: url('./Graphik/GraphikRegular.otf');
+}
+
+@font-face {
+    font-family: "GraphikBold";
+    src: url('./Graphik/GraphikBold.otf');
+}
+
+.header {
+    width: 100%;
+    height: 1042px;
+    position: relative;
+
+    color: #FFFFFF;
+    font-family: 'Graphik';
+    background-repeat: no-repeat;
+    background-size: 100% 930px;
+    background-image: url('https://img6.thuthuatphanmem.vn/uploads/2022/03/04/background-hop-online-cong-ty-4k_013912826.jpg');
+    clip-path: polygon(0 0, 100% 0, 100% 730px, 50% 930px, 0 730px);
+}
+
+.header a {
+    margin-right: 40px;
+    width: 43px;
+    height: 28px;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+}
+
+.nav {
+    padding-top: 50px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+}
+
+.logo {
+    margin-right: 300px;
+}
+
+.icon {
+    position: relative;
+}
+
+.icon a {
+    margin-right: 30px;
+}
+
+.headerText {
+    font-family: 'GraphikBold';
+    width: 100%;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 74px;
+    line-height: 84px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    display: flex;
+    justify-content: center;
+    margin-top: 158px;
+}
+
+.TextTiltle {
+    width: 672px;
+    height: 168px;
+}
+
+.headerTextContent {
+    display: flex;
+    justify-content: center;
+    margin-top: 27px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    margin-bottom: 90px;
+}
+
+.TextContent {
+    width: 766px;
+    height: 80px;
+}
+
+.headerButton {
+    display: flex;
+    justify-content: center;
+}
+
+.headerButton button {
+    font-family: 'GraphikBold';
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 16px 0px;
+    width: 236px;
+    height: 52px;
+    background: #2091F9;
+    border-radius: 35px;
+    border-width: 0;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+}
+
+.features {
+    margin-top: 11px;
+}
+
+.featuresContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.featuresTiltle {
+    width: 300px;
+    height: 55px;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 55px;
+    color: #252B42;
+    text-align: center;
+    letter-spacing: 0.2px;
+    font-family: 'Graphik';
+}
+
+.featuresTiltleMin {
+    width: 300px;
+    height: 55px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 55px;
+    color: #252B42;
+    letter-spacing: 0.2px;
+    font-family: 'GraphikBold';
+}
+
+.featuresContentMin {
+    width: 300px;
+    height: 55px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 55px;
+    color: #252B42;
+    letter-spacing: 0.2px;
+    font-family: 'Graphik';
+}
+
+
+.featuresContent {
+    width: 532px;
+    height: 80px;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #374754;
+    margin-top: 27px;
+    font-family: 'Graphik';
+}
+
+.featuresBold {
+    text-align: center;
+    width: 231px;
+
+}
+
+.featuresBoldText {
+    height: 56px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: 0.1px;
+    color: #252B42;
+    font-family: 'GraphikBold';
+}
+
+.featuresBoldTextContent {
+    width: 231px;
+    height: 100px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #374754;
+
+}
+
+.footer {
+    height: 567px;
+    background: #252B42;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerContainer {
+    display: flex;
+    justify-content: center;
+
+}
+
+.footerBold {
+    margin-right: 100px;
+    font-family: 'Graphik';
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 28px;
+    /* identical to box height, or 187% */
+    letter-spacing: 0.2px;
+    /* Light text */
+    color: #FFFFFF;
+
+
+}
+
+.footerBoldtitle {
+    font-family: 'Graphik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0.1px;
+    color: #FFFFFF;
+}
+
+.footerBoldIcon {
+    margin-left: 200px;
+    margin-top: 10px;
+    font-family: 'Graphik';
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 28px;
+    /* identical to box height, or 187% */
+    letter-spacing: 0.2px;
+    /* Light text */
+    color: #FFFFFF;
+}
+
+.TestimonialsContent {
+    width: 967px;
+    height: 80px;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #374754;
+    margin-top: 10px;
+    font-family: 'Graphik';
+}
+
+.SubscribeButton {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 19px 38px;
+    gap: 10px;
+    width: 172px;
+    height: 58px;
+    border-width: 0;
+    background: #2091F9;
+    border-radius: 35px;
+
+    font-size: 20px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+
+}
+
+.EmailButton {
+    box-sizing: border-box;
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 19px 39px;
+    gap: 64px;
+    width: 273px;
+    height: 54px;
+    background: #F4F4F4;
+    border: 1px solid #E8E8E8;
+    border-radius: 39px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    /* identical to box height, or 114% */
+    letter-spacing: 0.1px;
+    /* Background */
+
+    color: #18171D;
+
+}
+
+.pricing {
+    margin-top: 115px;
+    height: 1155px;
+
+    /* Dark background */
+
+    background: #252B42;
+
+}
+
+.pricingContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.pricingTiltle {
+    margin-top: 110px;
+    width: 158px;
+    height: 55px;
+    font-family: 'Graphik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 55px;
+
+    text-align: center;
+    letter-spacing: 0.2px;
+
+    color: #FFFFFF;
+}
+
+.pricingContent {
+    margin-top: 27px;
+    width: 532px;
+    height: 80px;
+    font-family: 'Graphik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+
+}
+
+.pricingBoldWhite {
+    text-align: center;
+    width: 335px;
+    height: 607px;
+    background: #FFFFFF;
+    border: 1px solid #DEDEDE;
+    box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+    border-radius: 10px;
+}
+
+.pricingBoldWhite p {
+    font-family: 'Graphik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: 0.1px;
+    color: #374754;
+    margin-top: 30px;
+}
+
+.pricingBoldWhiteTitle {
+
+    margin-top: 50px;
+    height: 28px;
+    text-align: center;
+    font-family: 'GraphikBold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0.1px;
+    color: #252B42;
+
+}
+
+.pricingBoldWhiteContent {
+    margin: auto;
+    width: 148px;
+    height: 46px;
+    font-family: 'Graphik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: 0.1px;
+    color: #374754;
+
+
+}
+
+.pricingBoldWhiteTitleBig {
+
+    width: 55px;
+
+    padding-top: 20px;
+    font-family: 'GraphikBold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 74px;
+    line-height: 28px;
+    letter-spacing: 0.1px;
+    color: #252B42;
+}
+
+.pricingBoldWhiteTitleMin {
+    /* margin-top: 5px; */
+    height: 28px;
+    text-align: left;
+    font-family: 'GraphikBold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0.1px;
+    color: #252B42;
+}
+
+.pricingBoldBlue {
+    text-align: center;
+    width: 335px;
+    height: 697px;
+    background: #2091F9;
+    border: 1px solid #DEDEDE;
+    box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+    border-radius: 10px;
+
+
+}
+
+.pricingBoldBlue p {
+    font-family: 'Graphik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: 0.1px;
+    color: #FFFFFF;
+    margin-top: 30px;
+}
+
+
+.pricingBoldBlueTitle {
+    margin-top: 95px;
+    font-family: 'Graphik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0.1px;
+    color: #FFFFFF;
+}
+
+.pricingBoldBlueContent {
+    margin: auto;
+    width: 148px;
+    height: 46px;
+    font-family: 'Graphik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: 0.1px;
+    color: #FFFFFF;
+
+}
+
+.pricingBoldBlueTitleBig {
+
+    width: 55px;
+
+    padding-top: 20px;
+    font-family: 'GraphikBold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 74px;
+    line-height: 28px;
+    letter-spacing: 0.1px;
+    color: #FFFFFF;
+}
+
+.pricingBoldBlueTitleMin {
+    /* margin-top: 5px; */
+    height: 28px;
+    text-align: left;
+    font-family: 'GraphikBold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0.1px;
+    color: #FFFFFF;
+}
+
+.input {
+    margin: auto;
+    padding-left: 19px;
+    gap: 47px;
+    width: 353px;
+    height: 54px;
+    background: #F5F5F5;
+    border: 1px solid #E8E8E8;
+    border-radius: 39px;
+    margin-top: 45px;
+}
+
+.inputMessage {
+    margin: auto;
+    padding-left: 19px;
+    gap: 47px;
+    align-items: start;
+    width: 353px;
+    height: 193px;
+    background: #F5F5F5;
+    border: 1px solid #E8E8E8;
+    margin-top: 45px;
+}
+
+.contactButton {
+    margin: auto;
+    width: 353px;
+    text-align: left;
+}
+
+.contactButton button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 18px 38px;
+    gap: 10px;
+    border-width: 0px;
+    width: 145px;
+    height: 56px;
+    font-size: 20px;
+    /* Primary */
+    color: #FFFFFF;
+    background: #2091F9;
+    border-radius: 35px;
+}
