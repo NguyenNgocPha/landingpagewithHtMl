@@ -204,6 +204,7 @@
 }
 
 .footer {
+    margin-top: 100px;
     height: 567px;
     background: #252B42;
     display: flex;
@@ -275,7 +276,7 @@
     gap: 10px;
     width: 172px;
     height: 58px;
-    border-width: 0;
+    border-width: 0px;
     background: #2091F9;
     border-radius: 35px;
 
